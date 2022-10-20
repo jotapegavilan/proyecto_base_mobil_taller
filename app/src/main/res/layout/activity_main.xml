@@ -30,7 +30,7 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="49dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
@@ -45,11 +45,10 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="37dp"
-        android:onClick="logIn"
         android:shadowColor="#000000"
         android:shadowDy="10"
         android:text="Iniciar sesión"
